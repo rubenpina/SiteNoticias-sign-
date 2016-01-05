@@ -1,0 +1,81 @@
+html {
+  font-family: Arial, sans-serif;
+}
+.row {
+  padding: 1em;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.face {
+  float: left;
+  list-style: none;
+  padding: 1em;
+  font-size: 14px;
+  background-color: #006be8;
+  color: #fff;
+  width: 16.1em;
+  text-align: center;
+}
+.face .fb {
+  float: left;
+  width: 30px;
+  height: 30px;
+  padding-right: 0.6em;
+}
+.face li {
+  margin-top: 0.5em;
+}
+.twt {
+  overflow: hidden;
+  list-style: none;
+  padding: 1em;
+  font-size: 14px;
+  background-color: #2288ff;
+  color: #fff;
+  width: 16.1em;
+  text-align: center;
+}
+.twt .tt {
+  float: left;
+  width: 30px;
+  height: 30px;
+  padding-right: 0.6em;
+}
+.twt li {
+  margin-top: 0.5em;
+}
+input {
+  padding: 1em;
+  border: none;
+  background-color: #dedede;
+  color: #9b9b9b;
+  border-bottom: 3px inset #dedede;
+  border-top: 3px solid #dedede;
+}
+input[type="text"] {
+  width: 16.9em;
+}
+input[type="email"] {
+  width: 36.1em;
+}
+input[type="password"] {
+  width: 36.1em;
+}
+input[type="submit"] {
+  width: 38em;
+  background-color: firebrick;
+  padding: 1.2em;
+  color: #fff;
+  border: none;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  border-bottom: 3px inset #000;
+}

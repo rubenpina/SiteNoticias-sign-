@@ -1,0 +1,109 @@
+@inputWidth: 36.1em;
+@socialWidth: 16.1em;
+@inputBack: #dedede;
+
+html {
+    font-family: Arial, sans-serif;
+}
+
+.row {
+    padding: 1em;
+}
+
+
+//SOCIAL
+
+a {
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.face {
+    float: left;
+    list-style: none;
+    padding: 1em;
+    font-size: 14px;
+    background-color: #006be8;
+    color: #fff;
+    width: @socialWidth;
+    text-align: center;
+    
+    .fb {
+        float: left;
+        width: 30px;
+        height: 30px;
+        padding-right: 0.6em;
+    }
+    
+    li {
+        margin-top: 0.5em;
+    }
+}
+
+.twt {
+    //float: left;
+    overflow: hidden;
+    list-style: none;
+    padding: 1em;
+    font-size: 14px;
+    background-color: #2288ff;
+    color: #fff;
+    width: @socialWidth;
+    text-align: center;
+    
+    .tt {
+        float: left;
+        width: 30px;
+        height: 30px;
+        padding-right: 0.6em;
+    }
+    
+    li {
+        margin-top: 0.5em;
+    }
+}
+
+//INPUT
+
+input {
+    padding: 1em;
+    border: none;
+    background-color: @inputBack;
+    color: #9b9b9b;
+    border-bottom: 3px inset @inputBack;
+    border-top: 3px solid @inputBack;
+}
+
+input[type="text"] {
+    width: 16.9em;
+}
+
+input[type="email"] {
+    width: @inputWidth;
+}
+
+input[type="password"] {
+    width: @inputWidth;
+}
+
+input[type="submit"] {
+    width: 38em;
+    background-color: firebrick;
+    //font-weight: bold;
+    padding: 1.2em;
+    color: #fff;
+    border: none;
+    
+    &:hover {
+         cursor: pointer;
+    }
+}
+
+input:focus {
+    outline: none;
+    border-bottom: 3px inset #000;
+    //height: 1.5em;
+}
